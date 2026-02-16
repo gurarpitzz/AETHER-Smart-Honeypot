@@ -102,7 +102,4 @@ Our core research on the AETHER ecosystem is detailed in our latest publication.
 
 ---
 *Developed with Reactive Intelligence for the next generation of Cyber-Defensive Organisms.*
-=======
-# AETHER-Autonomous-Evolving-Tamper-proof-Honeypot-Ecosystem-with-Reactive-Intelligence
-**AETHER** is an autonomous, AI-driven cyber defense system that shifts security from passive detection to active deception. It encodes attacker behavior as digital DNA and uses reinforcement learning to dynamically engage, mislead, and analyze advanced threats in real time.
->>>>>>> 8bf74cb9d48401440279d0fbe9e7e330d82404a2
+
