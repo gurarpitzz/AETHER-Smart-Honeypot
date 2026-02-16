@@ -126,6 +126,12 @@ The **Adaptive Complexity Engine** is the heart of AETHER's evolutionary capabil
 - **Phase II: Engagement Escalation**: If the attacker persists, AETHER increases the complexity of the "data leaks" and internal system responses.
 - **Phase III: Exhaustion**: The system introduces infinite recursion in directory structures or circular dependencies in API responses, designed to stall automated tools and frustrate human actors.
 
+## ⚖️ License
+
+AETHER uses a mixed licensing model:
+- **Software**: All source code is licensed under the [MIT License](LICENSE).
+- **Research & Media**: The research paper (PDF) and visual assets (images/GIFs) are **All Rights Reserved** © 2026 Gurarpit Singh.
+
 ---
 *Developed with Reactive Intelligence for the next generation of Cyber-Defensive Organisms.*
 

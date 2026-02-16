@@ -1,4 +1,7 @@
-MIT License
+# AETHER Defense System Licensing
+
+## 💻 Software License (MIT)
+The source code within this repository is licensed under the **MIT License**.
 
 Copyright (c) 2026 Gurarpit Singh
 
@@ -19,3 +22,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+## 📚 Research & Media Assets License (All Rights Reserved)
+The research paper located in `docs/` and the visual assets (images, logos, GIFs) located in `assets/` and `static/` are **not** covered by the MIT license.
+
+**Copyright (c) 2026 Gurarpit Singh. All Rights Reserved.**
+
+Unless otherwise specified, you may read, cite, and reference these materials for academic and research purposes. However, you are **not** permitted to:
+1. Modify the research paper or assets without explicit written permission.
+2. Use the research paper or assets for commercial purposes.
+3. Redistribute the assets in a standalone manner without proper attribution and the owner's consent.
+
+*For permissions regarding the research paper, please contact the lead author.*
+
