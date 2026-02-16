@@ -17,6 +17,11 @@ AETHER shifts the paradigm from **Passive Detection** to **Active Engagement**. 
 - **Synthesized Illusions**: Leveraging generative principles to create fake banners, error messages, and data leaks.
 - **Tamper-Proof Architecture**: Core logic is decoupled from the deception surface.
 
+### 🧬 Digital DNA & Behavioral Fingerprinting
+AETHER implements a unique "Digital DNA" extraction process. Every interaction is parsed into a multi-dimensional feature set that captures the attacker's "genetic" profile. 
+- **Tactical DNA**: Encodes the sequence of commands and exploit attempts.
+- **Genetic Evolution**: As the attacker iterates, AETHER updates the DNA profile, allowing the defense to anticipate the next "mutation" in the attack vector.
+
 ## 🧮 Mathematical Framework
 
 AETHER's decision engine is modeled as a state-space transition system.
@@ -99,6 +104,27 @@ Our core research on the AETHER ecosystem is detailed in our latest publication.
 > [!TIP]
 > **Citation**: Singh, G., & Singh, M. (2025). *AETHER: Autonomous, Evolving, Tamper-proof Honeypot Ecosystem with Reactive Intelligence*. TechRxiv. 
 > [**Read on TechRxiv**](https://www.techrxiv.org/users/938624/articles/1308701-aether-autonomous-evolving-tamper-proof-honeypot-ecosystem-with-reactive-intelligence) | [**View Local PDF**](docs/AETHER__Autonomous__Evolving__Tamper_proof_Honeypot_Ecosystem_with_Reactive_Intelligence%20(final).pdf)
+
+## 🛡️ Threat Surface Emulation
+
+AETHER provides contextually rich emulation across several critical layers, ensuring that attackers remain engaged in a high-fidelity environment.
+
+### 1. Secure Shell (SSH) Layer
+Synthesizes varying banner versions (OpenSSH, Dropbear, Cisco) to match the expected profile of a high-value target. It handles authentication attempts by injecting artificial latency, mimicking real-world processing overhead.
+
+### 2. Hypertext Transfer Protocol (HTTP/S) Layer
+Generates dynamic web traps, including fake login pages, 403 Forbidden errors with leaked "debug info," and 500 Internal Server errors. The generative engine ensures that headers (Server, Content-Type) remain consistent with the illusion.
+
+### 3. Database (SQL) Layer
+Implements "Honeytokens" at the database driver level. When SQL injection is detected, AETHER returns syntactically correct but functionally fake error messages (MySQL, Oracle, PostgreSQL), leading the attacker into a rabbit hole of non-existent vulnerabilities.
+
+## 📈 Adaptive Complexity Engine
+
+The **Adaptive Complexity Engine** is the heart of AETHER's evolutionary capability. It monitors the **Adversary Confusion Index (ACI)** and adjusts the fidelity of the decoys in real-time.
+
+- **Phase I: Interaction Monitoring**: Passive analysis of reconnaissance traffic.
+- **Phase II: Engagement Escalation**: If the attacker persists, AETHER increases the complexity of the "data leaks" and internal system responses.
+- **Phase III: Exhaustion**: The system introduces infinite recursion in directory structures or circular dependencies in API responses, designed to stall automated tools and frustrate human actors.
 
 ---
 *Developed with Reactive Intelligence for the next generation of Cyber-Defensive Organisms.*
