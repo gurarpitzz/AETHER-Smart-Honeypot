@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHER // DEFENSE_ORGANISM</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AETHER <span style="font-size:0.5em">v1.0.4 [ACTIVE]</span></h1>
+            <div class="controls">
+                <span id="connection-status">CONNECTED</span>
+                <div class="status-indicator"></div>
+            </div>
+        </div>
+
+        <!-- Left Column: Threat Intel -->
+        <div class="panel">
+            <h2>ADVERSARY_TRACKING</h2>
+            <div class="metric-grid">
+                <div class="metric-box">
+                    <div>THREAT_LEVEL</div>
+                    <div id="threat-stage" class="metric-value">SCANNING</div>
+                </div>
+                <div class="metric-box">
+                    <div>SOURCE_IP</div>
+                    <div id="source-ip" class="metric-value">---</div>
+                </div>
+            </div>
+            <br>
+            <h3>CAPTURED_PAYLOAD</h3>
+            <div id="payload-display" style="color:red; border:1px solid red; padding:10px; min-height:40px;">
+                WAITING_FOR_PACKETS...
+            </div>
+        </div>
+
+        <!-- Right Column: Defense Metrics -->
+        <div class="panel">
+            <h2>DEFENSE_NEURAL_NET</h2>
+            <div class="metric-grid">
+                <div class="metric-box">
+                    <div>CONFUSION_INDEX</div>
+                    <div id="conf-index" class="metric-value">0.0</div>
+                </div>
+                <div class="metric-box">
+                    <div>ACTIVE_DECOYS</div>
+                    <div id="active-decoys" class="metric-value">0</div>
+                </div>
+            </div>
+            <br>
+            <h3>LATEST_COUNTERMEASURE</h3>
+            <div id="defense-action" style="color:var(--core-color); border:1px solid var(--core-color); padding:10px; min-height:40px;">
+                STANDBY
+            </div>
+        </div>
+
+        <!-- Bottom: Global Logs -->
+        <div class="panel" style="grid-column: 1 / -1; height: 100%;">
+            <h2>EVENT_STREAM</h2>
+            <div id="log-terminal" class="log-terminal">
+                <!-- Logs go here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

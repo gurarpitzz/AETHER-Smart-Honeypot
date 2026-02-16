@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHER // MISSION BREIFING</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        .landing-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+            z-index: 10;
+        }
+
+        .btn-start {
+            display: inline-block;
+            margin-top: 30px;
+            font-size: 1.5rem;
+            padding: 15px 40px;
+            text-decoration: none;
+            color: var(--core-color);
+            border: 2px solid var(--core-color);
+            background: rgba(0, 0, 0, 0.8);
+            transition: all 0.3s;
+        }
+
+        .btn-start:hover {
+            background: var(--core-color);
+            color: #000;
+            box-shadow: 0 0 30px var(--core-color);
+        }
+
+        #bg-canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="landing-container">
+        <h1 style="font-size: 4rem; margin-top: 10vh;">AETHER</h1>
+        <h2 style="color: #fff">AUTONOMOUS CYBER DEFENSE ORGANISM</h2>
+
+        <div class="panel" style="text-align: left; margin-top: 50px;">
+            <h3>// MISSION BRIEFING</h3>
+            <p><strong>OBJECTIVE:</strong> Defense against sophisticated Polymorphic Threats.</p>
+            <p><strong>METHODOLOGY:</strong></p>
+            <ul>
+                <li>Active Deception via Generative AI Decoys.</li>
+                <li>Real-time Behavioral Analysis.</li>
+                <li>Evolutionary Adaptation to Adversary Tactics.</li>
+            </ul>
+            <p><strong>STATUS:</strong> SYSTEM ARMED AND READY.</p>
+        </div>
+
+        <a href="/dashboard" class="btn-start">INITIATE SIMULATION</a>
+    </div>
+
+    <script>
+        // Matrix Rain / Cyber Grid Effect
+        const canvas = document.getElementById('bg-canvas');
+        const ctx = canvas.getContext('2d');
+
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const chars = "0101010101 AETHER CYBER DEFENSE TERMINAL SYSTEM FAILURE DEPLOY DECOY";
+        const charArray = chars.split('');
+        const fontSize = 14;
+        const columns = canvas.width / fontSize;
+
+        const drops = [];
+        for (let x = 0; x < columns; x++) drops[x] = 1;
+
+        function draw() {
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.05)';
+            ctx.fillRect(0, 0, canvas.width, canvas.height); // Trail effect
+
+            ctx.fillStyle = '#ff9900'; // Orange
+            ctx.font = fontSize + 'px Courier New';
+
+            for (let i = 0; i < drops.length; i++) {
+                const text = charArray[Math.floor(Math.random() * charArray.length)];
+                ctx.fillText(text, i * fontSize, drops[i] * fontSize);
+
+                if (drops[i] * fontSize > canvas.height && Math.random() > 0.975)
+                    drops[i] = 0;
+
+                drops[i]++;
+            }
+        }
+        setInterval(draw, 33);
+
+        window.addEventListener('resize', () => {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        });
+    </script>
+</body>
+
+</html>

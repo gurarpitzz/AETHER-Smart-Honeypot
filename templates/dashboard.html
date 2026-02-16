@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHER // DASHBOARD</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <!-- Chart.js via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AETHER <span style="font-size:0.5em">v2.1.0 [SIMULATION ACTIVE]</span></h1>
+            <div class="controls">
+                <!-- Tour Trigger -->
+                <button onclick="startTour()" style="margin-right:20px; font-size: 0.8em; padding: 5px 15px;">? EXPLAIN
+                    SYSTEM</button>
+
+                <a href="/" style="color:var(--core-color); margin-right:20px; text-decoration:none;">[EXIT]</a>
+                <span id="connection-status">CONNECTED</span>
+                <div class="status-indicator"></div>
+            </div>
+        </div>
+
+        <!-- Left Column: Threat Intel & Telemetry -->
+        <div class="panel" id="threat-panel">
+            <h2>ADVERSARY_TRACKING</h2>
+
+            <div class="chart-container" style="position: relative; height:200px; width:100%">
+                <canvas id="metricsChart"></canvas>
+            </div>
+
+            <br>
+            <h3>ADVERSARY_STATUS</h3>
+            <div class="metric-grid">
+                <div class="metric-box">
+                    <div style="font-size:0.7em">SOURCE</div>
+                    <div id="source-ip" class="metric-value">---</div>
+                </div>
+                <div class="metric-box">
+                    <div style="font-size:0.7em">RISK_SCORE</div>
+                    <div id="risk-score" class="metric-value">0.0</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column: Defense Logic -->
+        <div class="panel" id="defense-panel">
+            <h2>DEFENSE_NEURAL_NET</h2>
+            <div class="metric-grid">
+                <div class="metric-box">
+                    <div>CONFUSION_IDX</div>
+                    <div id="conf-index" class="metric-value">0.0</div>
+                </div>
+                <div class="metric-box">
+                    <div>DECOYS_ACTIVE</div>
+                    <div id="active-decoys" class="metric-value">0</div>
+                </div>
+            </div>
+            <br>
+            <h3>LATEST_RESPONSE</h3>
+            <div id="defense-action" class="terminal-box">
+                SYSTEM STANDBY...
+            </div>
+        </div>
+
+        <!-- Bottom: Global Logs -->
+        <div class="panel" id="log-panel"
+            style="grid-column: 1 / -1; height: 100%; display:flex; flex-direction:column;">
+            <h2>EVENT_STREAM</h2>
+            <div id="log-terminal" class="log-terminal" style="flex-grow:1;">
+                <!-- Logs go here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+    <script src="/static/tour.js"></script>
+    <script>
+        // Optional: Auto-start tour? Let's leave it manual for now.
+    </script>
+</body>
+
+</html>
