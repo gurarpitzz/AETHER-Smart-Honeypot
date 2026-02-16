@@ -82,12 +82,15 @@ python app.py
 python main.py
 ```
 
-## 📚 Reference & Citation
+## 📚 Research & Publication
 
-If you use this work in your research, please cite our preprint:
+Our core research on the AETHER ecosystem is published as a preprint. You can read the full paper directly below or visit the official TechRxiv page.
 
-> Singh, G., & Singh, M. (2025). *AETHER: Autonomous, Evolving, Tamper-proof Honeypot Ecosystem with Reactive Intelligence*. TechRxiv. 
-> [Available at TechRxiv](https://www.techrxiv.org/users/938624/articles/1308701-aether-autonomous-evolving-tamper-proof-honeypot-ecosystem-with-reactive-intelligence)
+[![AETHER Paper Preview](assets/intro.png)](https://www.techrxiv.org/users/938624/articles/1308701-aether-autonomous-evolving-tamper-proof-honeypot-ecosystem-with-reactive-intelligence)
+
+> [!TIP]
+> **Citation**: Singh, G., & Singh, M. (2025). *AETHER: Autonomous, Evolving, Tamper-proof Honeypot Ecosystem with Reactive Intelligence*. TechRxiv. 
+> [**Read on TechRxiv**](https://www.techrxiv.org/users/938624/articles/1308701-aether-autonomous-evolving-tamper-proof-honeypot-ecosystem-with-reactive-intelligence)
 
 ---
 *Developed with Reactive Intelligence for the next generation of Cyber-Defensive Organisms.*
