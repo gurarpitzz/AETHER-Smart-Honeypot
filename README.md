@@ -84,13 +84,21 @@ python main.py
 
 ## 📚 Research & Publication
 
-Our core research on the AETHER ecosystem is published as a preprint. You can read the full paper directly below or visit the official TechRxiv page.
+Our core research on the AETHER ecosystem is detailed in our latest publication. You can access the paper using the links below.
 
-[![AETHER Paper Preview](assets/intro.png)](https://www.techrxiv.org/users/938624/articles/1308701-aether-autonomous-evolving-tamper-proof-honeypot-ecosystem-with-reactive-intelligence)
+<div align="center">
+  <a href="docs/AETHER__Autonomous__Evolving__Tamper_proof_Honeypot_Ecosystem_with_Reactive_Intelligence%20(final).pdf">
+    <img src="https://img.shields.io/badge/Read%20Research%20Paper-PDF%20Viewer-red?style=for-the-badge&logo=adobeacrobatreader" alt="Read PDF">
+  </a>
+  <br>
+  <i>Click the button above to open the research paper in GitHub's native viewer.</i>
+</div>
+
+[![AETHER Paper Preview](assets/intro.png)](docs/AETHER__Autonomous__Evolving__Tamper_proof_Honeypot_Ecosystem_with_Reactive_Intelligence%20(final).pdf)
 
 > [!TIP]
 > **Citation**: Singh, G., & Singh, M. (2025). *AETHER: Autonomous, Evolving, Tamper-proof Honeypot Ecosystem with Reactive Intelligence*. TechRxiv. 
-> [**Read on TechRxiv**](https://www.techrxiv.org/users/938624/articles/1308701-aether-autonomous-evolving-tamper-proof-honeypot-ecosystem-with-reactive-intelligence)
+> [**Read on TechRxiv**](https://www.techrxiv.org/users/938624/articles/1308701-aether-autonomous-evolving-tamper-proof-honeypot-ecosystem-with-reactive-intelligence) | [**View Local PDF**](docs/AETHER__Autonomous__Evolving__Tamper_proof_Honeypot_Ecosystem_with_Reactive_Intelligence%20(final).pdf)
 
 ---
 *Developed with Reactive Intelligence for the next generation of Cyber-Defensive Organisms.*
