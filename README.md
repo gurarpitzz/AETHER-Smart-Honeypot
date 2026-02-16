@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # AETHER: Autonomous, Evolving, Tamper-proof Honeypot Ecosystem with Reactive Intelligence
 
 [![Scientific Preprint](https://img.shields.io/badge/Preprint-TechRxiv-blue)](https://www.techrxiv.org/users/938624/articles/1308701-aether-autonomous-evolving-tamper-proof-honeypot-ecosystem-with-reactive-intelligence)
